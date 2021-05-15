@@ -28,6 +28,10 @@ class NameForm extends React.Component {
             <p>Name</p>
             <input name="name" />
           </label>
+          <label>
+            <p>LastName</p>
+            <input lastname="lastname" />
+          </label>
         </fieldset>
         <button type="submit">Submit</button>
       </form>
